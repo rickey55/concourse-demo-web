@@ -3,9 +3,9 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: cloud.docker.com/rickeysu/jdk8maven
+    repository: https://cloud.docker.com/repository/docker/rickeysu/jdk8maven
     tag: "v1"
-    insecure_registries: ["cloud.docker.com"]
+    insecure_registries: ["https://cloud.docker.com"]
 inputs:
 - name: source-code
 
