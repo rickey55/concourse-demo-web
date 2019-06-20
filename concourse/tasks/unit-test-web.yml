@@ -3,9 +3,10 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: cloud.docker.com/repository/docker/rickeysu/jdk8maven
-    tag: "v1"
-    insecure_registries: ["cloud.docker.com"]
+    repository: rickeysu/jdk8maven
+    email:      rickeysu@gmail.com
+    username:   rickeysu
+    password:   rickeysufan20111219
 inputs:
 - name: source-code
 
