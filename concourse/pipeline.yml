@@ -22,7 +22,7 @@ jobs:
   - get: source-code
     trigger: true
   - task: unit-test
-    file: source-code/concourse/tasks/unit-test-web.yml
+    file: concourse/tasks/unit-test-web.yml
 - name: deploy-web
   public: true
   plan:
